@@ -1,7 +1,10 @@
-<style>
-    table{
-        width: 30%; background-color: white;
-    }
-    td{
-        border: 2px black;
-    }
+table{
+    width: 30%; background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2cm black;
+}
+td{
+    border: 2px black;
+}

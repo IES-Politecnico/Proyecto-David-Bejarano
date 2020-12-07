@@ -5,62 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=3.0">
     <title>El rugby actual</title>
     <link rel="icon" href="icon/rugby.png">
-    <link rel="stylesheet" href="/EstiloGeneral.css">
+    <link rel="stylesheet" href="EstiloGeneral.css">
 </head>
 <body style="background-color: grey;"> 
-    <div style="background-color:red;">
-        <h1><i>El deporte del rugby no está pasando por su mejor momento</i></h1>
+    <header style="text-align: center;;">
+        
+        <p><h1 class="Titulo"><i>El deporte del rugby no está pasando por su mejor momento</i></h1></p>
+        <picture>
+            <source media="(max-width: 799px)" srcset="images/RugbyActual-400w.jpg">
+            <source media="(min-width: 800px)" srcset="images/RugbyActual-500w.jpg">
+            <img src="/images/RugbyActual-500w.jpg" alt="Imagen de un partido de rugby">
+        </picture>
         <h1> Es sabido por todos que la <u>pandemia</u> actual que está afrontando la humanidad no es la situación idónea para practicar este deporte  pero los distintos equipos están tratando de encontrar soluciones a esto, tomando todas las medidas necesarias para entrenar y jugar de forma segura.</h1> 
-    </div>
-    <div id="ciencias" style="background-color: cyan;">
-        <h2><span id="ProblemasJugadores">
-                Uno de los equipos locales más afectados por esta situación ha sido el Ciencias Olavide:<br>
-                El club se ha visto perjudicado dado que ha tenido<a href="./articles/article1.html" target="_blank"> Problemas con sus jugadores</a>
+    </header>
+    <main style="text-align: center; background-color:rgb(168, 4, 4);">
+        <h1>En este blog encontrarás información sobre diversos sucesos actuales sobre el mundo del rugby, ya puede ser de un equipo concreto, de algún evento en especial o la principal sede de algún país</h1>
+    </main>
+    <nav style="text-align: center; background-color: black;">
+        <p><a class="button" href="#ciencias">
+            <picture>
+                <source media="(max-width: 799px)" srcset="buttons/button_noticias-del-club-de-rugby-ciencias-olavide-300w.png">
+                <source media="(min-width: 800px)" srcset="buttons/button_noticias-del-club-de-rugby-ciencias-olavide-350w.png">
+                <img src="/buttons/button_noticias-del-club-de-rugby-ciencias-olavide-350w.png"  alt="Botón de enlace a noticias del club de rugby ciencias Olavide">
+            </picture>
+        </a>
+        <a class="button" href="#SeisNaciones">
+            <picture>
+                <source media="(max-width: 799px)" srcset="buttons/button_noticias-sobre-el-torneo-de-las-seis-naciones-300w.png">
+                <source media="(min-width: 800px)" srcset="buttons/button_noticias-sobre-el-torneo-de-las-seis-naciones-350w.png">
+                <img src="buttons/button_noticias-sobre-el-torneo-de-las-seis-naciones-350w.png">
+            </picture>
+        </a>
+        <a class="button" href="#FederacionRugby">
+            <picture>
+                <source media="(max-width: 799px)" srcset="buttons/button_noticias-sobre-la-federacion-espanola-de-rugby-300w.png">
+                <source media="(min-width: 800px)" srcset="buttons/button_noticias-sobre-la-federacion-espanola-de-rugby-350w.png">
+                <img src="buttons/button_noticias-sobre-la-federacion-espanola-de-rugby-350w.png">
+            </picture>
+        </a></p>
+    </nav>
+    <section id="ciencias" style="background-color:white;">
+        <h1 class="Encabezado">Noticias sobre el club ciencias Olavide</h1>
+        <h2><article id="ProblemasJugadores">
+                <a href="./articles/article1.html" target="_blank"> El club se ha visto perjudicado dado que ha tenido problemas con sus jugadores</a><br>
                 <a href="./articles/article1.html" target="_blank">"Leer más"</a><br>
-        </span></h2>
-        <h3><span id="ListadoPartidos">
-        Aquí puedes ver el<a href="./articles/article3.html" target="_blank"> listado de partidos confirmados 2020/2021</a>
-        </span></h3>
+        </article></h2><br>
+        <h2><article id="ListadoPartidos">
+            <a href="./articles/article3.html" target="_blank"> Aquí puedes ver el listado de partidos confirmados 2020/2021</a>
+        </article></h2>
             <a href="./articles/article1.html" target="_blank"> 
                 <picture>
                     <source media="(max-width: 799px)" srcset="images/ciencias-rugby-300w.jpg">
                     <source media="(min-width: 800px)" srcset="images/ciencias-rugby-400w.jpg">
                     <img src="images/ciencias-rugby-400w.jpg"  alt="imagen del club de rugby ciencias Olavide">
                 </picture></a>
-    </div>
-    <div id="SeisNaciones" style="background-color: white;">
-        <h2>
-            <span id="PerdidaTorneo">
-            Por otra parte, en países como escocia, siguen disfrutando del deporte <q>sin ningún problema</q>, pues a pesar de las adversidades, se ha disputado el torneo de las seis naciones con relativa normalidad hace poco.<br>
-            Desafortunadamente, era inevitable que el evento se viese <a href="./articles/article2.html" target="_blank">afectado por la situación de pandemia</a><br>
+    </section>
+    <section id="SeisNaciones" style="background-color: white;">
+        <h1 class="Encabezado">Noticias sobre el torneo de las seis naciones</h1>
+        <h2><article id="PerdidaTorneo">
+            <a href="./articles/article2.html" target="_blank">A pesar de las adversidades, se ha disputado el torneo con relativa normalidad, pero desafortunadamente, era inevitable que se viese afectado por la situación de pandemia</a><br>
             <a href="./articles/article2.html" target="_blank">"Leer más"</a><br>
-        </span>
-        </h2>
-        <h3><span id="ParticipantesTorneo">
-            Aquí encontrarás una<a href="./articles/article4.html" target="_blank"> tabla con los equipos participantes y algunos datos sobre ellos</a>
-        </span></h3>
+        </article></h2><br>
+        <h2><article id="ParticipantesTorneo">
+            <a href="./articles/article4.html" target="_blank">Aquí encontrarás una tabla con los equipos participantes y algunos datos sobre ellos</a>
+        </article></h2>
             <a href="./articles/article2.html" target="_blank">
                 <picture>
                     <source media="(max-width: 799px)" srcset="images/seis-naciones-capitanes-500w.jpg">
                     <source media="(min-width: 800px)" srcset="images/seis-naciones-capitanes-600w.jpg">
                     <img src="images/seis-naciones-capitanes-600w.jpg"  alt="Capitanes de los equipos participantes en el torneo">
                 </picture></a>
-    </div>
-    <div id="FederacionRugby">
-       <h2><span id="MedidasSeguridad">
-            Desde luego, la federación Española de rugby no se ha quedado de brazos cruzados frente a la situación actual:<br>
-            La federación ha impuesto el cumplimiento de <a href="./articles/article5.html" target="_blank">medidas de seguridad</a> para poder continuar con el deporte de la mejor forma posible
+            </section>
+    <section id="FederacionRugby" style="background-color:white;">
+        <h1 class="Encabezado">Noticias sobre la Federación Española de Rugby</h1>
+       <h2><article id="MedidasSeguridad">
+            <a href="./articles/article5.html" target="_blank">La federación ha impuesto el cumplimiento de medidas de seguridad para poder continuar con el deporte de la mejor forma posible</a> <br>
             <a href="./articles/article5.html" target="_blank">"Leer más"</a><br>
-        </span></h2>
-        <h3><span id="MensajeOficial">
-            Aquí encontrarán un mensaje oficial de la FER (Federación Española de Rugby) sobre el <a href="./articles/article6.html" target="_blank">futuro del deporte en el país</a>
-        </span></h3>
+        </article></h2><br>
+        <h2><article id="MensajeOficial">
+            <a href="./articles/article6.html" target="_blank">Aquí encontrarás un mensaje oficial de la FER (Federación Española de Rugby) sobre el futuro del deporte en el país</a>
+        </article></h2>
         <a href="./articles/article5.html" target="_blank">
             <picture>
                 <source media="(max-width: 799px)" srcset="images/Fer-300w.png">
                 <source media="(min-width: 800px)" srcset="images/Fer-400w.png">
                 <img src="images/Fer-400w.png" alt="Logo de la FER">
             </picture></a>
-    </div>
+        </section>
+            <footer>
+                <h2>Alumno: David Bejarano Llano<br>
+                Asignatura: TIC II<br>
+                Curso: 2020-2021</h2>
+            </footer>
  </body>
 </html>
